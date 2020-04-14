@@ -1,0 +1,53 @@
+*{ margin: 0px; padding: 0px; list-style: none; font-size: 13px; font-family: Arial;}
+a{text-decoration: none;}
+
+.login {max-width: 320px; height: 150px;background-color: gray; position: fixed; top: 45%; left: 50%; transform: translate(-50%, -50%);}
+.login div {justify-content: center;}
+.login div form {padding: 1px; margin-bottom: 5px; text-align: center; flex-wrap: wrap;}
+.login div form input {text-align: center; margin-bottom: 5px; padding: 2px;}
+.login div form div {height: 17px; display: flex; margin-top: 10px; margin-bottom: 10px;}
+.login div form button {display: flex;margin: 0 auto;padding: 2px 15px 2px 15px ;}
+.banner {display: flex; flex-wrap: wrap;}
+.banner banner {position: fixed; width: 100%; top: 0px; max-height: 50px; background-color: black}
+.header {display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; color: gray; }
+.header img {max-height: 100%; display: block;}
+.logo { height: 30px; display: flex; align-items: flex-start;}
+.menu {display: flex; flex-wrap: wrap; align-items: center;}
+.menu li {margin-left: 20px; font-size: 15px; text-align: center;}
+.menu a li  {display: block;  padding: 3px; color: gray;}
+.user {display: flex; text-align: right; float: right;}
+.logout { width: 189px; display: flex; padding: 2px; align-items: flex-end; justify-content: space-between;}
+.logout > a { height: 40px;  width: 40px; color: white; font-family: serif; background-color: red; text-align: center;}
+.logout > img { height: 75%;  width: 75%; margin: 5px 0px 0px 5px;}
+body { background-color: white }
+.corpo { display: block; margin-top: 45px; margin-bottom: 45px; justify-content: center; flex-wrap: wrap; }
+.maintable {background-color: #dedede; border-collapse: collapse; margin: 0 auto;}
+.maintable tr th{background-color: black; color: white; padding: 1px 10px 1px 10px;}
+.maintable tr th,  tr td{text-align: center; max-width: 300px;}
+.maintable tr td{border-bottom: 1px solid black; border-color: #949494;  height: 40px; }
+.adjust {padding: 0px 2px 0px 2px;}
+table.maintable tr:nth-child(even) {background-color: white}
+table.maintable tr:hover {background-color: #b0ffc4;}
+.page {display: block; width: 1000px; height: 550px;  background-color: #c7c7c7; margin: 0 auto;}
+.page div { display: flex; width: 100%; margin: 0 auto; margin: 5px;}
+.page content {margin: 5px; padding: 5px}
+.edit form {display: flex;}
+.edit {display: block; flex-wrap: wrap;}
+.edit div {display: flex; width:97%; margin-right: 5px;}
+.edit send {display: block; text-align: center;}
+.edit box input {background-color: #fffdd1; color: black; margin-bottom: 3px; width: 200px;}
+.edit textarea {background-color: #fffdd1; color: black; margin-bottom: 10px; width: 210px; resize: none; height: 105px}
+.edit box {display: block; margin-right: 22px; margin-top: 12px; width: 280px;}
+.edit checkbox {margin-top: 12px; padding: 5px; width: 330px;}
+.edit checkbox label {font-size: 12px}
+.edit erro {font-size: 12px; color: red}
+.info {width: 37%; display: block;}
+.info table {border-collapse: collapse; width: 100%;}
+.info table tr{width: 100%; height: 18px;}
+.info table td{text-align: left;}
+.info box { display: flex;height: 80px; width: 98%; border-style: solid; border: 1px solid;}
+.info boxf { display: flex;height: 80px; width: 98%; border-style: solid; border: 1px solid; font-size: 12px}
+.gallery { border-left: 1px solid black; width: 59%; display: flex;}
+.gallery div {margin-top: 40%; margin-left: 50%;}
+.foot {position: fixed; width: 100%; bottom: 0px; height: 40px; background-color: black; color: white}
+.nada { display: flex;max-width: 40%; flex-wrap: wrap; margin: 0 auto;}

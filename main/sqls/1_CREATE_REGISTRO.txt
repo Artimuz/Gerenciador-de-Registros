@@ -1,0 +1,23 @@
+CREATE TABLE registro (
+	id INT(10) AUTO_INCREMENT PRIMARY KEY,
+	estoque TINYTEXT NULL,
+   	filial TINYTEXT NULL,
+	andamento TINYTEXT NULL,
+	ponto TINYTEXT NULL,
+	dataregistro TINYTEXT NULL,
+  	cod TINYTEXT NULL,
+	SN VARCHAR(50) NOT NULL,
+  	notaf TINYTEXT NOT NULL,
+ 	loja TINYTEXT NULL,
+	valorloja TINYTEXT NULL,
+	valorat TINYTEXT NULL,
+  	datanota TINYTEXT NULL,
+ 	modelo TINYTEXT NULL,
+	aparencia LONGTEXT NULL,
+	problema LONGTEXT NULL,
+	bateria TINYTEXT NULL,
+	adulteracao TINYTEXT NULL,
+	coments LONGTEXT NULL,
+	doublecheck_date TINYTEXT NULL,
+	responsavel TINYTEXT NULL
+)

@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `nome` tinytext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `sobrenome` tinytext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `ponto` tinytext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `func` tinytext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `filial` tinytext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `senha` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+
+INSERT INTO `users` (`id`, `nome`, `sobrenome`, `ponto`, `func`, `filial`, `senha`) VALUES
+(1, 'admin', 'admin', 'admin', NULL, '', '$2y$10$Q4XxOAkHKphkldIoVj8DBeYkUOu6MOdHVb/mzivdKwe9X1ECBHrNa');
+COMMIT;
